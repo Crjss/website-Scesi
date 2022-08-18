@@ -219,7 +219,7 @@ header button a {
 }
 
 #footer-menu::before {
-    background: url("/images/bg-footer-top-desktop.svg") no-repeat;
+    background: url("./images/bg-footer-top-desktop.svg") no-repeat;
     background-position: center;
     background-size: cover;
     content: " ";
