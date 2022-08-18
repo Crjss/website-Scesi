@@ -16,7 +16,7 @@ body {
     overflow-x: hidden;
 }
 
-#grid-container {
+.grid-container {
     min-width: 100vw;
     display: grid;
     grid-row-gap: 15rem;
@@ -24,7 +24,7 @@ body {
 }
 
 
-#header {
+.header {
     width: 90vw;
     display: grid;
     grid-row-gap: 10rem;
@@ -58,29 +58,29 @@ header button a {
     font-weight: 600;
 }
 
-#heading {
+.heading {
     min-width: 80vw;
     display: grid;
     grid-row-gap: 5rem;
     margin: 0 auto;
 }
 
-#subtext {
+.subtext {
     display: grid;
     grid-row-gap: 2rem;
 }
 
-#subtext h1 {
+.subtext h1 {
     font-size: 2rem;
 }
 
-#subtext p {
+.subtext p {
     max-width: 40vw;
     margin: 0 auto;
 }
 
-#subtext button,
-#call-to-action button {
+.subtext button,
+.call-to-action button {
     min-width: 25vw;
     border: transparent;
     border-radius: 30px;
@@ -91,8 +91,8 @@ header button a {
 
 }
 
-#subtext button a,
-#call-to-action button a {
+.subtext button a,
+.call-to-action button a {
     text-decoration: none;
     color: var(--White);
     font-size: 1rem;
@@ -101,20 +101,20 @@ header button a {
 
 
 
-#banner {
+.banner {
     width: 80vw;
     display: block;
     margin: 0 auto;
 }
 
 
-#number {
+.number {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-#number img {
+.number img {
     display: block;
 }
 
@@ -126,18 +126,18 @@ header button a {
     color: var(--Verydarkcyan);
 }
 
-#wrapper-advantage {
+.wrapper-advantage {
     display: grid;
     grid-row-gap: 8rem;
 }
 
-#wrapper-grow,
-#wrapper-user {
+.wrapper-grow,
+.wrapper-user {
     background-color: var(--Verypaleblue);
     position: relative;
 }
 
-#wrapper-grow::before {
+.wrapper-grow::before {
     width: 100vw;
     height: 10rem;
     content: "";
@@ -147,7 +147,7 @@ header button a {
     top: -10rem;
 }
 
-#wrapper-user::before {
+.wrapper-user::before {
     width: 100vw;
     min-height: 13rem;
     content: "";
@@ -157,7 +157,7 @@ header button a {
     top: -10rem;
 }
 
-#wrapper-grow::after {
+.wrapper-grow::after {
     width: 100vw;
     min-height: 10rem;
     content: "";
@@ -166,7 +166,7 @@ header button a {
     position: absolute;
 }
 
-#wrapper-user::after {
+.wrapper-user::after {
     width: 100vw;
     min-height: 10rem;
     content: "";
@@ -187,7 +187,7 @@ header button a {
     padding: 8rem 0;
 }
 
-#wrapper-conversation .advantage {
+.wrapper-conversation .advantage {
     padding: 10rem 0;
 }
 
@@ -201,24 +201,24 @@ header button a {
 }
 
 
-#call-to-action {
+.call-to-action {
     display: grid;
     grid-row-gap: 2rem;
     text-align: center;
     padding: 5rem 0 9rem 0;
 }
 
-#call-to-action h2 {
+.call-to-action h2 {
     font-size: 2rem;
 }
 
-#footer-menu {
+.footer-menu {
     background-size: contain;
     background: var(--Verydarkcyan);
     position: relative;
 }
 
-#footer-menu::before {
+.footer-menu::before {
     background: url("./images/bg-footer-top-desktop.svg") no-repeat;
     background-position: center;
     background-size: cover;
@@ -229,7 +229,7 @@ header button a {
     top: -12rem;
 }
 
-#footer-container {
+.footer-container {
     width: 90vw;
     display: grid;
     grid-template-columns: repeat(2, 28.8vw);
@@ -241,38 +241,38 @@ header button a {
     margin: 0 auto;
 }
 
-#left-footer,
-#newsletter {
+.left-footer,
+.newsletter {
     display: grid;
     grid-row-gap: 1rem;
 }
 
 
-#phone,
-#email {
+.phone,
+.email {
     display: flex;
     align-items: center;
 
 }
 
-#phone img,
-#email img {
+.phone img,
+.email img {
     margin-right: 1rem;
 
 }
 
-#newsletter h3 {
+.newsletter h3 {
     font-size: 1.5rem;
 }
 
-#tape,
-#newsletter button {
+.tape,
+.newsletter button {
     padding: .5rem;
     border: transparent;
     border-radius: 5px;
 }
 
-#newsletter button {
+.newsletter button {
     width: 8vw;
     background: var(--Pink);
     margin-left: 1rem;
@@ -280,7 +280,7 @@ header button a {
 
 }
 
-#newsletter button a {
+.newsletter button a {
     text-decoration: none;
     color: White;
 }
